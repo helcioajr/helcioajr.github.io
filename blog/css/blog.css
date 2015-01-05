@@ -29,8 +29,6 @@ h2 {
   color: #555;
 }
 
-
-
 /*
  * Override Bootstrap's default container.
  */
@@ -291,6 +289,75 @@ color: #555;
 	background-color: #c9302c;
 }
 
+
+/* About Page */
+
+#about h1 {
+  color: #e74e3c;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+#about img {
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+#first-paragraph {
+  clear: left;
+  padding-top: 20px;
+}
+
+/* Portifolio Page */
+
+.example {
+  background-color: #eee;
+  background-color: #eee;
+  float: left;
+  width: 33.3333333%;
+  border: 1px solid;
+  height: 300px;
+}
+
+.row-example:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.example-2 {
+  width: 33.3333%;
+  float: left;
+}
+
+.inner-example {
+  background-color: #eee;
+  margin: 5px;
+}
+
+.inner-example img { 
+  max-width: 98%;
+  margin: 1%;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px #999;
+}
+
+.inner-example h3 {
+  margin: 5px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.inner-example p {
+  padding: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+
 /*
  * Footer
  */
@@ -310,6 +377,12 @@ color: #555;
 
 .center {
 	text-align: center;
+}
+
+.sticky-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 /* Responsive Styling */
