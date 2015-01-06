@@ -300,7 +300,6 @@ color: #555;
 
 #about img {
   border-radius: 100px;
-  float: left;
   margin-right: 30px;
 }
 
@@ -393,4 +392,15 @@ color: #555;
     text-align: center;
   }
   
+}
+
+@media (max-width: 767px) {
+  
+  .xs-center, #about h1 {
+    text-align: center;
+  }
+
+  .sticky-footer {
+    position: static;
+  }
 }
