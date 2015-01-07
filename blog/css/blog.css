@@ -155,6 +155,8 @@ color: #555;
   border: 3px solid #efefef;
   border-top: 0;
   border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 13px;
   margin-top: 30px;
 }
 
@@ -200,9 +202,10 @@ color: #555;
 
 .sidebar-module-inset {
   border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
   padding: 15px;
 	background-color: #f5f5f5;
-	border-radius: 4px;
 	border: 5px dashed #e74c3c;
 }
 
@@ -240,6 +243,8 @@ color: #555;
   padding: 10px 20px;
   text-align: center;
   border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
 }
 
 
@@ -300,6 +305,8 @@ color: #555;
 
 #about img {
   border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
   margin-right: 30px;
 }
 
@@ -339,6 +346,8 @@ color: #555;
   max-width: 98%;
   margin: 1%;
   border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius:  5px;
   box-shadow: 0 1px 1px #999;
 }
 
