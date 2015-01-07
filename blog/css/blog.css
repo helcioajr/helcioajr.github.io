@@ -303,7 +303,7 @@ color: #555;
   font-weight: 300;
 }
 
-#about img {
+#about img, .home-top {
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
