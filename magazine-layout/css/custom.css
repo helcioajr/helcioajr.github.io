@@ -8,3 +8,14 @@
 	padding-bottom: 170px;
 	border-top: 3px solid #e74c3c;
 }
+
+.jumbotron h1 {
+	font-family: klavika, arvo, "Helvetica neue", serif;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 20px;
+	font-weight: 600;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+}
