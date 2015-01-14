@@ -315,6 +315,10 @@ color: #555;
   height: 50px;
 }
 
+#first-paragraph-home {
+  padding-top: 50px;
+}
+
 /* About Page */
 
 #about h1 {
