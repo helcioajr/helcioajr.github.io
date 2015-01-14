@@ -294,6 +294,13 @@ color: #555;
 	background-color: #c9302c;
 }
 
+/* Home Page */
+
+#home-top {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(../images/background.jpg);
+}
 
 /* About Page */
 
@@ -303,7 +310,7 @@ color: #555;
   font-weight: 300;
 }
 
-#about img, #home-top {
+#about img, #home-top img{
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
