@@ -299,7 +299,20 @@ color: #555;
 #home-top {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url(../images/background.jpg);
+  background: url(../images/background.jpg) repeat;
+}
+
+#home-top h1 {
+  font-weight: 500px;
+}
+
+#home-top .btn {
+  font-size: 25px;
+}
+
+#home-top input.form-control {
+  font-size: 25px;
+  height: 50px;
 }
 
 /* About Page */
