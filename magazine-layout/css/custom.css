@@ -4,4 +4,7 @@
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	border-top: 3px solid #e74c3c;
 }
