@@ -19,6 +19,7 @@
 .navbar {
 	background-color: transparent;
 	border: none;
+	margin-bottom: 0px;
 }
 
 .jumbotron {
