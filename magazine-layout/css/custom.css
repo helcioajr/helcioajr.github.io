@@ -16,6 +16,10 @@
 	font-weight: 100;
 }
 
+.navbar {
+	background-color: transparent;
+	border: none;
+}
 
 .jumbotron {
 	background: url('../images/background.jpg') no-repeat center center;
