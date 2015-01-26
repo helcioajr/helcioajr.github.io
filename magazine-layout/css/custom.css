@@ -17,7 +17,6 @@
 }
 
 
-
 .jumbotron {
 	background: url('../images/background.jpg') no-repeat center center;
 	-o-background-size: cover;
@@ -40,4 +39,8 @@
 	color: white;
 	background-color: rgba(0,0,0,.1);
 	text-shadow: 1px 1px 2px #333;
+}
+
+.highlight {
+	color: #e74c3c;
 }
