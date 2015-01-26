@@ -1,3 +1,23 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-weight: 100;
+}
+
+
+
 .jumbotron {
 	background: url('../images/background.jpg') no-repeat center center;
 	-o-background-size: cover;
@@ -10,7 +30,7 @@
 }
 
 .jumbotron h1 {
-	font-family: klavika, arvo, "Helvetica neue", serif;
+	font-family: Roboto, arvo, "Helvetica neue", serif;
 	padding: 10px;
 	text-align: center;
 	margin: 10px 20px;
@@ -19,5 +39,5 @@
 	text-transform: uppercase;
 	color: white;
 	background-color: rgba(0,0,0,.1);
-	text-shadow: (1px 1px 2px #333);
+	text-shadow: 1px 1px 2px #333;
 }
