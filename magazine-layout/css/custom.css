@@ -20,6 +20,7 @@
 	background-color: transparent;
 	border: none;
 	margin-bottom: 0px;
+	padding-top: 10px;
 }
 
 .navbar-brand img {
@@ -36,7 +37,7 @@
 	padding-top: 170px;
 	padding-bottom: 170px;
 	border-top: 3px solid #e74c3c;
-	margin-top: -50px;
+	margin-top: -60px;
 }
 
 .jumbotron h1 {
