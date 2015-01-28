@@ -40,7 +40,11 @@ body {
 	padding-top: 25px;
 	padding-bottom: 10px;
 }
-
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: #fff;
+	background-color: transparent;
+	opacity: 1;
+}
 .jumbotron {
 	background: url('../images/background.jpg') no-repeat center center;
 	-o-background-size: cover;
