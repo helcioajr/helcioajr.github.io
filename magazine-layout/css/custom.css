@@ -55,6 +55,7 @@ body {
 	padding-bottom: 170px;
 	border-top: 3px solid #e74c3c;
 	margin-top: -65px;
+	margin-bottom: 0px;
 }
 
 .jumbotron h1 {
@@ -71,18 +72,23 @@ body {
 
 #bottom-section .col-md-4 {
 	min-height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 #byfw {
-	background-image: url('../images/byfw.png');
+	background-image: url('../images/byfw.jpg');
+	background-color: #e94c3d;
 }
 
 #baw {
-	background-image: url('../images/baw.jpg');
+	background-image: url('../images/baw.png');
+	background-color: #f39c12;
 }
 
 #oml {
 	background-image: url('../	images/oml.jpg');
+	background-color: #f0c312;
 }
 
 /* Universal Styling */
