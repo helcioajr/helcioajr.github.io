@@ -66,7 +66,7 @@ body {
 	font-size: 50px;
 	text-transform: uppercase;
 	color: white;
-	background-color: rgba(0,0,0,.03);
+	background-color: rgba(0,0,0,.1);
 	text-shadow: 1px 1px 2px #333;
 }
 
@@ -111,7 +111,42 @@ body {
 	background-color: #f0c312;
 }
 
+/*  Footer */
+
+footer {
+	background-color: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 200;
+	color: #fefefe;
+}
+
+footer a {
+	color: #ccc;
+}
+
+footer p {
+	padding-top: 5px
+}
+
 /* Universal Styling */
 .highlight {
 	color: #e74c3c;
+}
+
+.right-align {
+	text-align: right;
+}
+
+/* Responsive Styling */
+
+@media (min-width: 1500px) {
+	#bottom-section .col-md-4 {
+		min-height: 475px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		padding-top: 360px;
+		text-align: center;
+		font-size: 18px;
+	}
 }
