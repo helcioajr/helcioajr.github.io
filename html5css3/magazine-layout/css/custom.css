@@ -153,9 +153,8 @@ footer p {
 
 @media (max-width: 768px) {
 	#bottom-section .col-sm-4 {
-	min-height: 420px;
-	padding-top: 400px;
-	padding-bottom: 15px;
-}
+		min-height: 420px;
+		padding-top: 400px;
+		padding-bottom: 15px;
 	}
 }
