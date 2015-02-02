@@ -1,23 +1,23 @@
 @font-face {
-	font-family: Exo;
-	src: url(../fonts/Exo2-Regular.ttf);
+	font-family: Klavika;
+	src: url(../fonts/Klavika-Light.ttf);
 	font-weight: 300;
 }
 
 @font-face {
-	font-family: Exo;
-	src: url(../fonts/Exo2-Regular.ttf);
+	font-family: Klavika;
+	src: url(../fonts/Klavika-Light.ttf);
 	font-weight: 600;
 }
 
 @font-face {
-	font-family: Exo;
-	src: url(../fonts/Exo2-Regular.ttf);
+	font-family: Klavika;
+	src: url(../fonts/Klavika2-Light.ttf);
 	font-weight: 100;
 }
 
 body {
-	font-family: Exo, arvo, "Helvetica neue", serif;
+	font-family: Klavika, arvo, "Helvetica neue", serif;
 	font-size:  16px;
 }
 
