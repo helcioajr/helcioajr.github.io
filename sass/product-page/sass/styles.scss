@@ -6,3 +6,27 @@
 
 // Import Bootstrap for Sass
 @import "bootstrap";
+
+
+.navbar {
+    background-color: transparent;
+    border: none;
+
+    .container {
+        width: 38% !important;
+
+    .navbar-brand {
+        margin: 0px;
+
+        }
+    }
+}
+
+.container.marketing {
+    width: 50%;
+    .col-lg-6 {
+        width: 50%;
+        text-align: center;
+    }
+}
+

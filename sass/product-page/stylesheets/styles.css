@@ -8539,3 +8539,26 @@ button.close {
     display: none !important;
   }
 }
+/* line 11, ../sass/styles.scss */
+.navbar {
+  background-color: transparent;
+  border: none;
+}
+/* line 15, ../sass/styles.scss */
+.navbar .container {
+  width: 38% !important;
+}
+/* line 18, ../sass/styles.scss */
+.navbar .container .navbar-brand {
+  margin: 0px;
+}
+
+/* line 25, ../sass/styles.scss */
+.container.marketing {
+  width: 50%;
+}
+/* line 27, ../sass/styles.scss */
+.container.marketing .col-lg-6 {
+  width: 50%;
+  text-align: center;
+}
