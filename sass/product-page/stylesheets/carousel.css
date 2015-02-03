@@ -153,3 +153,8 @@ body {
 .carousel-inner > .item > img {
   height: auto;
 }
+
+/* line 139, ../sass/carousel.scss */
+.carousel-caption {
+  padding-bottom: 120px;
+}

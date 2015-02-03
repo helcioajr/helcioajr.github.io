@@ -8546,7 +8546,7 @@ button.close {
 /* line 20, ../sass/styles.scss */
 body {
   font-family: Coolvetica, arvo, "Helvetica neue", serif;
-  background: #e6937e;
+  background: #e18169;
   color: #fefefe;
 }
 
@@ -8554,7 +8554,7 @@ body {
 .navbar {
   background-color: transparent;
   border: none;
-  color: #fefefe;
+  color: #656565;
 }
 /* line 30, ../sass/styles.scss */
 .navbar .container {
@@ -8600,11 +8600,15 @@ body {
 }
 
 /* Footer styling */
-/* line 70, ../sass/styles.scss */
-footer p {
-  padding-top: 60px;
+/* line 69, ../sass/styles.scss */
+footer {
+  margin-top: 100px;
 }
-/* line 73, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
+footer p {
+  text-align: center;
+}
+/* line 74, ../sass/styles.scss */
 footer a {
   color: #d44c2a;
 }

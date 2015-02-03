@@ -15,7 +15,7 @@
 $font-body: Coolvetica, arvo, "Helvetica neue", serif;;
 $textcolor : #fefefe;
 $linkcolor: #d44c2a;
-$bg: lighten(($linkcolor), 20%);
+$bg: lighten(($linkcolor), 15%);
 
 body {
 	font-family: $font-body;
@@ -26,7 +26,7 @@ body {
 .navbar {
 	background-color: transparent;
 	border: none;
-	color: $textcolor;
+	color: darken(($textcolor), 60%);
 	.container {
 		width: 38% !important;
 	.navbar-brand {
@@ -67,8 +67,9 @@ body {
 /* Footer styling */
 
 footer {
+	margin-top: 100px;
 	p {
-		padding-top: 60px;
+		text-align: center;
 	}
 	a {
 		color: $linkcolor;
