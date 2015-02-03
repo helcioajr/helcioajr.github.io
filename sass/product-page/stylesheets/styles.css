@@ -8549,53 +8549,51 @@ body {
   background: #e6937e;
   color: #fefefe;
 }
-/* line 24, ../sass/styles.scss */
-body img {
-  width: 180px;
-  height: 180px;
-  border: 3px solid #fefefe;
-}
 
-/* line 31, ../sass/styles.scss */
+/* line 26, ../sass/styles.scss */
 .navbar {
   background-color: transparent;
   border: none;
   color: #fefefe;
 }
-/* line 35, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 .navbar .container {
   width: 38% !important;
 }
-/* line 37, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 .navbar .container .navbar-brand {
   margin: 0px;
 }
-/* line 39, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .navbar .container .navbar-brand a {
   color: #fefefe;
 }
 
-/* line 46, ../sass/styles.scss */
-.container.marketing {
-  width: 50%;
-}
-/* line 48, ../sass/styles.scss */
-.container.marketing .col-lg-6 {
-  width: 50%;
+/* line 42, ../sass/styles.scss */
+.marketing .col-lg-4 {
   text-align: center;
 }
-/* line 52, ../sass/styles.scss */
-.container.marketing p {
+/* line 45, ../sass/styles.scss */
+.marketing p {
   font-family: Arial;
+}
+/* line 48, ../sass/styles.scss */
+.marketing img {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #fefefe;
+}
+/* line 52, ../sass/styles.scss */
+.marketing img:hover {
+  opacity: 0.7;
 }
 
 /* Footer styling */
-/* line 58, ../sass/styles.scss */
-p {
+/* line 61, ../sass/styles.scss */
+footer p {
   padding-top: 30px;
 }
-
-/* line 61, ../sass/styles.scss */
-a {
+/* line 64, ../sass/styles.scss */
+footer a {
   color: #d44c2a;
 }
