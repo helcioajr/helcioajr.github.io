@@ -4,13 +4,12 @@
 /* line 5, ../sass/carousel.scss */
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
 }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-/* line 15, ../sass/carousel.scss */
+/* line 14, ../sass/carousel.scss */
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -20,19 +19,19 @@ body {
 }
 
 /* Flip around the padding for proper display in narrow viewports */
-/* line 24, ../sass/carousel.scss */
+/* line 23, ../sass/carousel.scss */
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 28, ../sass/carousel.scss */
+/* line 27, ../sass/carousel.scss */
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
 }
 
-/* line 32, ../sass/carousel.scss */
+/* line 31, ../sass/carousel.scss */
 .navbar-wrapper .navbar .container {
   width: auto;
 }
@@ -40,26 +39,26 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
-/* line 41, ../sass/carousel.scss */
+/* line 40, ../sass/carousel.scss */
 .carousel {
   height: 500px;
   margin-bottom: 60px;
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 46, ../sass/carousel.scss */
+/* line 45, ../sass/carousel.scss */
 .carousel-caption {
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
-/* line 51, ../sass/carousel.scss */
+/* line 50, ../sass/carousel.scss */
 .carousel .item {
   height: 500px;
   background-color: #777;
 }
 
-/* line 55, ../sass/carousel.scss */
+/* line 54, ../sass/carousel.scss */
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -71,18 +70,18 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
-/* line 68, ../sass/carousel.scss */
+/* line 67, ../sass/carousel.scss */
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* line 72, ../sass/carousel.scss */
+/* line 71, ../sass/carousel.scss */
 .marketing h2 {
   font-weight: normal;
 }
 
-/* line 75, ../sass/carousel.scss */
+/* line 74, ../sass/carousel.scss */
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
@@ -90,14 +89,14 @@ body {
 
 /* Featurettes
 ------------------------- */
-/* line 84, ../sass/carousel.scss */
+/* line 83, ../sass/carousel.scss */
 .featurette-divider {
   margin: 80px 0;
   /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
-/* line 89, ../sass/carousel.scss */
+/* line 88, ../sass/carousel.scss */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -108,49 +107,49 @@ body {
 -------------------------------------------------- */
 @media (min-width: 768px) {
   /* Navbar positioning foo */
-  /* line 101, ../sass/carousel.scss */
+  /* line 100, ../sass/carousel.scss */
   .navbar-wrapper {
     margin-top: 20px;
   }
 
-  /* line 104, ../sass/carousel.scss */
+  /* line 103, ../sass/carousel.scss */
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 108, ../sass/carousel.scss */
+  /* line 107, ../sass/carousel.scss */
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  /* line 114, ../sass/carousel.scss */
+  /* line 113, ../sass/carousel.scss */
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
   /* Bump up size of carousel content */
-  /* line 119, ../sass/carousel.scss */
+  /* line 118, ../sass/carousel.scss */
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
   }
 
-  /* line 125, ../sass/carousel.scss */
+  /* line 124, ../sass/carousel.scss */
   .featurette-heading {
     font-size: 50px;
   }
 }
 @media (min-width: 992px) {
-  /* line 131, ../sass/carousel.scss */
+  /* line 130, ../sass/carousel.scss */
   .featurette-heading {
     margin-top: 120px;
   }
 }
-/* line 136, ../sass/carousel.scss */
+/* line 135, ../sass/carousel.scss */
 .carousel-inner > .item > img {
   height: auto;
 }
