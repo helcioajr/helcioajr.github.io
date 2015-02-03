@@ -15,14 +15,12 @@
 $font-body: Coolvetica, arvo, "Helvetica neue", serif;;
 $textcolor : #fefefe;
 $linkcolor: #d44c2a;
-$light: 100;
 $bg: lighten(($linkcolor), 20%);
 
 body {
     font-family: $font-body;
     background: $bg;
     color: $textcolor;
-    font-weight: $light;
     img {
         width: 160px;
         height: 160px;
@@ -49,6 +47,9 @@ body {
     .col-lg-6 {
         width: 50%;
         text-align: center;
+    }
+    p {
+        font-family: Arial;
     }
 }
 
