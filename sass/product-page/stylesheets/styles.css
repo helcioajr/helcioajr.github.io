@@ -8561,36 +8561,36 @@ body img {
   border: none;
   color: #fefefe;
 }
-/* line 35, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 .navbar .container {
   width: 38% !important;
 }
-/* line 38, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 .navbar .container .navbar-brand {
   margin: 0px;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .container.marketing {
   width: 50%;
 }
-/* line 47, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .container.marketing .col-lg-6 {
   width: 50%;
   text-align: center;
 }
-/* line 51, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .container.marketing p {
   font-family: Arial;
 }
 
 /* Footer styling */
-/* line 57, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 p {
   padding-top: 30px;
 }
 
-/* line 60, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 a {
   color: #d44c2a;
 }

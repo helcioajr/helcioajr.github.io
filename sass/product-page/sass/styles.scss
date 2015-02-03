@@ -8,8 +8,8 @@
 @import "bootstrap";
 
 @font-face {
-    font-family: Coolvetica;
-    src: url("../fonts/coolvetica rg.ttf");
+	font-family: Coolvetica;
+	src: url("../fonts/coolvetica rg.ttf");
 }
 
 $font-body: Coolvetica, arvo, "Helvetica neue", serif;;
@@ -18,45 +18,43 @@ $linkcolor: #d44c2a;
 $bg: lighten(($linkcolor), 20%);
 
 body {
-    font-family: $font-body;
-    background: $bg;
-    color: $textcolor;
-    img {
-        width: 180px;
-        height: 180px;
-    }
+	font-family: $font-body;
+	background: $bg;
+	color: $textcolor;
+	img {
+		width: 180px;
+		height: 180px;
+	}
 }
 
 .navbar {
-    background-color: transparent;
-    border: none;
-    color: $textcolor;
+	background-color: transparent;
+	border: none;
+	color: $textcolor;
+	.container {
+		width: 38% !important;
+	.navbar-brand {
+		margin: 0px;
 
-    .container {
-        width: 38% !important;
-
-    .navbar-brand {
-        margin: 0px;
-
-        }
-    }
+		}
+	}
 }
 
 .container.marketing {
-    width: 50%;
-    .col-lg-6 {
-        width: 50%;
-        text-align: center;
-    }
-    p {
-        font-family: Arial;
-    }
+	width: 50%;
+	.col-lg-6 {
+		width: 50%;
+		text-align: center;
+	}
+	p {
+		font-family: Arial;
+	}
 }
 
 /* Footer styling */
 p {
-    padding-top: 30px;
+	padding-top: 30px;
 }
 a {
-    color: $linkcolor;
+	color: $linkcolor;
 }
