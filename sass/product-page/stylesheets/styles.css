@@ -8553,44 +8553,49 @@ body {
 body img {
   width: 180px;
   height: 180px;
+  border: 3px solid #fefefe;
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 .navbar {
   background-color: transparent;
   border: none;
   color: #fefefe;
 }
-/* line 34, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 .navbar .container {
   width: 38% !important;
 }
-/* line 36, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 .navbar .container .navbar-brand {
   margin: 0px;
 }
+/* line 39, ../sass/styles.scss */
+.navbar .container .navbar-brand a {
+  color: #fefefe;
+}
 
-/* line 43, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .container.marketing {
   width: 50%;
 }
-/* line 45, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .container.marketing .col-lg-6 {
   width: 50%;
   text-align: center;
 }
-/* line 49, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .container.marketing p {
   font-family: Arial;
 }
 
 /* Footer styling */
-/* line 55, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 p {
   padding-top: 30px;
 }
 
-/* line 58, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 a {
   color: #d44c2a;
 }
