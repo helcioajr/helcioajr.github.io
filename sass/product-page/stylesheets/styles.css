@@ -8569,31 +8569,42 @@ body {
   color: #fefefe;
 }
 
-/* line 42, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fefefe;
+}
+/* line 43, ../sass/styles.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #d44c2a;
+}
+
+/* line 49, ../sass/styles.scss */
 .marketing .col-lg-4 {
   text-align: center;
+  padding: 0px 60px 0px 60px;
 }
-/* line 45, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 .marketing p {
   font-family: Arial;
+  padding-bottom: 20px;
 }
-/* line 48, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 .marketing img {
   width: 180px;
   height: 180px;
   border: 3px solid #fefefe;
 }
-/* line 52, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 .marketing img:hover {
   opacity: 0.7;
 }
 
 /* Footer styling */
-/* line 61, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 footer p {
-  padding-top: 30px;
+  padding-top: 60px;
 }
-/* line 64, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 footer a {
   color: #d44c2a;
 }

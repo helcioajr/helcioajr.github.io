@@ -38,12 +38,21 @@ body {
 	}
 }
 
+.navbar-inverse .navbar-nav > li > a {
+	color: $textcolor;
+	&:hover {
+		color: $linkcolor;
+	}
+}
+
 .marketing {
 	.col-lg-4 {
 		text-align: center;
+		padding: 0px 60px 0px 60px;
 	}
 	p {
 		font-family: Arial;
+		padding-bottom: 20px;
 	}
 	img {
 		width: 180px;
@@ -59,7 +68,7 @@ body {
 
 footer {
 	p {
-		padding-top: 30px;
+		padding-top: 60px;
 	}
 	a {
 		color: $linkcolor;
