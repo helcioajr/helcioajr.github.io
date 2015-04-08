@@ -7,14 +7,11 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
-@font-face {
-	font-family: Coolvetica;
-	src: url("../fonts/coolvetica rg.ttf");
-}
 
-$font-body: Coolvetica, arvo, "Helvetica neue", serif;;
+// Sass Variables
+$font-body: Monaco, arvo, "Helvetica neue", serif;;
 $textcolor : #fefefe;
-$linkcolor: #d44c2a;
+$linkcolor: #d44c24;
 $bg: lighten(($linkcolor), 15%);
 
 body {
@@ -28,7 +25,7 @@ body {
 	border: none;
 	color: darken(($textcolor), 60%);
 	.container {
-		width: 38% !important;
+		width: 60% !important;
 	.navbar-brand {
 		margin: 0px;
 			a {
@@ -64,8 +61,7 @@ body {
 	}
 }
 
-/* Footer styling */
-
+// Footer styling
 footer {
 	margin-top: 100px;
 	p {
