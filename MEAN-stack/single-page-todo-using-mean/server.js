@@ -22,6 +22,12 @@ app.use(bodyParser.json({
 })); // parse application/json
 app.use(methodOverride());
 
+// application
+
+app.get('*', function(req, res) {
+    res.sendfile('./public/index.html'); // load single view file (angular html page)
+});
+
 // Listen (start server.js)
 app.listen(8080);
 console.log("App listening on port 8080");
@@ -86,11 +92,4 @@ app.delete('/api/todos/:todo_id', function(req, res) {
             res.json(todos);
         });
     });
-});
-
-
-// application
-
-app.get('*', function(req, res) {
-    res.sendfile('./public/index.html'); // load single view file (angular html page)
 });
