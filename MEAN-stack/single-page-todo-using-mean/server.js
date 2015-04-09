@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
 // config
-mongoose.connect('mongodb://localhost/node-todo');
+mongoose.connect('mongodb://localhost:27017/node-todo');
 
 app.use(express.static(__dirname + '/public')); //set the static files location
 app.use(morgan('dev')); // log requests
@@ -24,7 +24,7 @@ app.use(methodOverride());
 
 // application
 
-app.get('*', function(req, res) {
+app.get('', function(req, res) {
     res.sendfile('./public/index.html'); // load single view file (angular html page)
 });
 
