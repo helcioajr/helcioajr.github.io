@@ -59,3 +59,25 @@ angular.module('authService', [])
 
 });
 
+.factory('AuthInterceptor', function($q, $location, AuthToken) {
+
+    var interceptorFactory = {};
+
+    interceptorFactory.request = function(config) {
+
+        var token = AuthToken.getToken();
+
+        if (token) {
+            config.headers['x-access-token'] = token;
+        }
+
+        return config;
+    };
+
+    interceptorFactory.responseError = function(reponse) {
+        if (response.status == 403)
+            $location.path('/login');
+        return $q.reject(reponse);
+    }
+
+});
