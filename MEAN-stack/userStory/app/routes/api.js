@@ -4,7 +4,6 @@ var config = require('../../config');
 var jsonwebtoken = require('jsonwebtoken');
 var secretKey = config.secretKey;
 
-
 function createToken(user) {
     var token = jsonwebtoken.sign({
         id: user._id,
@@ -89,7 +88,6 @@ module.exports = function(app, express) {
         });
     });
 
-
     api.use(function(req, res, next) {
 
         console.log("Somebody just came to our app!");
@@ -120,7 +118,6 @@ module.exports = function(app, express) {
             });
         }
     });
-
 
     api.route('/')
 
@@ -153,11 +150,14 @@ module.exports = function(app, express) {
                 res.send(err);
                 return;
             }
-
             res.json(stories);
 
         });
 
+    });
+
+    api.get('/me', function(req, res) {
+        res.json(req.decoded);
     });
 
     return api;
