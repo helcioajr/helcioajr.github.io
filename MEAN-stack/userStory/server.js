@@ -24,7 +24,7 @@ var api = require('./app/routes/api')(app, express);
 app.use('/api', api);
 
 app.get('*', function(req, res) {
-    res.sendFile(__dirname + '/public/views/index.html')
+    res.sendFile(__dirname + '/public/views/index.html');
 });
 
 
@@ -34,4 +34,4 @@ app.listen(config.port, function(err) {
     } else {
         console.log("Listening on port 3000");
     }
-})
+});
