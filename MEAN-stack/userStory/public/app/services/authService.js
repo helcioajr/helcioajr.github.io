@@ -44,7 +44,7 @@ angular.module('authService', [])
 
     var authTokenFactory = {};
 
-    authTokenFactory.getToke = function() {
+    authTokenFactory.getToken = function() {
         return $window.localStorage.getItem('token');
     };
 
