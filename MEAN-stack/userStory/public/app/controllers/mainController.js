@@ -8,7 +8,7 @@ angular.module('mainController', [])
 
     $rootScope.$on('$routeChangeStart', function() {
 
-        vm.LoggedIn = Auth.isLoggedIn();
+        vm.loggedIn = Auth.isLoggedIn();
 
         Auth.getUser()
             .then(function(data) {

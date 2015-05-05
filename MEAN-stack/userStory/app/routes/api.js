@@ -32,8 +32,13 @@ module.exports = function(app, express) {
                 res.send(err);
                 return;
             }
+
+            var token = createToken(user);
+
             res.json({
-                message: 'User has been created.'
+                success: true,
+                message: 'User has been created.',
+                token: token
             });
         });
     });
@@ -56,7 +61,7 @@ module.exports = function(app, express) {
 
         User.findOne({
             username: req.body.username
-        }).select('password').exec(function(err, user) {
+        }).select('name username password').exec(function(err, user) {
 
             if (err) throw err;
 

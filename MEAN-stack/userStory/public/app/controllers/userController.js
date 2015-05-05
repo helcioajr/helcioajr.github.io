@@ -1,6 +1,6 @@
 angular.module('userController', ['userService'])
 
-.controller('UserController', function($rootScope) {
+.controller('UserController', function(User) {
 
     var vm = this;
 
@@ -17,12 +17,12 @@ angular.module('userController', ['userService'])
     vm.signupUser = function() {
         vm.message = '';
 
-        User.create(vm.user)
+        User.create(vm.userData)
             .then(function(response) {
                 vm.userData = {};
                 vm.message = response.data.message;
 
-                $window.localStorage.setItem('token', reponse.data.token);
+                $window.localStorage.setItem('token', response.data.token);
                 $location.path('/');
 
             });
