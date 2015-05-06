@@ -40,7 +40,7 @@ angular.module('mainController', [])
 
     vm.doLogout = function() {
         Auth.logout();
-        $location.path('/');
+        $location.path('/login');
     };
 
 });
