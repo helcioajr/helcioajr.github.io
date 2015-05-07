@@ -22,8 +22,8 @@
             </div>
             <div class="panel panel-success">
             <div class="panel-heading">Your Stories</div>
-                <div class="panel-body" ng-repeat="story in story.stories">
-                    <blockquote>{{ story.content }}</blockquote>
+                <div class="panel-body" ng-repeat="story in story.stories | reverse">
+                    <p>{{ story.content }}</p>
                 </div>
             </div>
         </div>

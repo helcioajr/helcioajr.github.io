@@ -16,7 +16,6 @@ mongoose.connect(config.database, function(err) {
     }
 });
 
-
 app.use(bodyParser.urlencoded({
     extended: true
 }));
@@ -31,7 +30,6 @@ app.use('/api', api);
 app.get('*', function(req, res) {
     res.sendFile(__dirname + '/public/app/views/index.html');
 });
-
 
 http.listen(config.port, function(err) {
     if (err) {
